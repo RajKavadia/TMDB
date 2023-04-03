@@ -1,0 +1,57 @@
+name: raj_s_application9
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  file: ^6.1.4
+  flutter_snake_navigationbar: ^0.6.1
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  flutter_toggle_tab: ^1.2.0
+  intl: ^0.17.0
+  custom_navigation_bar: ^0.8.2
+  google_fonts: ^4.0.3
+  json_serializable: ^6.6.1
+  http: ^0.13.5
+  url_launcher: ^6.1.10
+  flutter_inappwebview: ^5.7.2+3
+  golden_toolkit: ^0.15.0
+dev_dependencies:
+  flutter_test: 
+    sdk: flutter
+  build_runner: ^2.0.5
+
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratMedium.ttf
+          weight: 500
+        - asset: assets/fonts/MontserratRomanRegular.ttf
+          weight: 400
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
